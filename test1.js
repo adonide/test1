@@ -1,1 +1,4 @@
-let a =2;
+function w(){
+    let a =2;
+}
+
