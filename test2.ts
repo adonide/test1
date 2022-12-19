@@ -1,6 +1,7 @@
 class test2{
-    private a:Number;
+    private a:number;
     private arr:any[];
+    private 呃呃:Function;
 
     constructor(){
         this.arr = [];
@@ -9,4 +10,13 @@ class test2{
         }
     }
 
+    nae() {
+        this.呃呃 = function(){
+            console.log(this);
+        }    
+    }
+
+    www(){
+        this.呃呃();
+    }
 }
