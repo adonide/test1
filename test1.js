@@ -1,5 +1,5 @@
 function w(){
     const w = 1;
-let a =2;
+    let a =2;
 }
 
